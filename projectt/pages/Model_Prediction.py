@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import joblib
-from projectt.xgmodel import w
+from ..xgmodel import w
 import time
 mymodel= joblib.load('projectt/my_model.pkl')
 One_Hot_Encoder= joblib.load('projectt/oH.pkl')
