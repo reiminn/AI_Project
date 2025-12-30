@@ -1,7 +1,7 @@
 streamlit
 pandas
 joblib
-matplotlob
+matplotlab
 xgboost
 seaborn
 sklearn
