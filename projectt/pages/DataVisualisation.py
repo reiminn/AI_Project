@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as pl
 
-df=pd.read_csv('dataproject.csv')
+df=pd.read_csv('projectt/dataproject.csv')
 
 #Preprocessing the data
 def processed_data(df,l):
