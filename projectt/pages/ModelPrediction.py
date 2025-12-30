@@ -5,9 +5,9 @@ import numpy as np
 import joblib
 from xgmodel import w
 import time
-mymodel= joblib.load('my_model.pkl')
-One_Hot_Encoder= joblib.load('oH.pkl')
-imputer= joblib.load('imputer.pkl')
+mymodel= joblib.load('projectt/my_model.pkl')
+One_Hot_Encoder= joblib.load('projectt/oH.pkl')
+imputer= joblib.load('projectt/imputer.pkl')
 
 # Custom CSS for background
 st.markdown(
