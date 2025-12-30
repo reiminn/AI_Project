@@ -23,7 +23,7 @@ h1, h2, h3 { color: #006d77; }
 st.title('Data Analysis')
 
 st.subheader("The Raw Dataset")
-df=pd.read_csv('dataproject.csv')
+df=pd.read_csv('projectt/dataproject.csv')
 st.write(df)
 
 st.markdown("Explore the dataset using the options below.")
